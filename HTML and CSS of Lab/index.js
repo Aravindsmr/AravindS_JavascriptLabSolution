@@ -46,7 +46,6 @@ function loadQuestions() {
       for(var i = 0; i < choices.length; i++) {
           var element = document.getElementById("choice" + i);
           element.innerHTML = choices[i];
-          var button = document.getElementById("btn" + i);
           handleOptionButton("btn" + i, choices[i]);
       }
 
